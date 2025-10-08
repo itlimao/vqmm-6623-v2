@@ -609,18 +609,23 @@ const CodeCheck = () => {
 
   return (
     <div className="code-check-container">
-      <div className="home">
+      {/* <div className="home">
         <Button
           type="primary"
           icon={<HomeOutlined />}
           size="large"
           className="home-btn"
-          onClick={() => (window.location.href = "https://gk88vip1.xyz/")}
+          
         >
           Trang chủ
         </Button>
-      </div>
-      <img src="/assets/gk88-logo.png" alt="logo" style={{ maxWidth: 360 }} />
+      </div> */}
+      <img
+        onClick={() => (window.location.href = "https://gk88vip1.xyz/")}
+        src="/assets/gk88-logo.png"
+        alt="logo"
+        style={{ maxWidth: 300, cursor: "pointer" }}
+      />
       <Title level={2} className="title">
         KIỂM TRA MÃ CODE NHẬN THƯỞNG
       </Title>
