@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Form, Input, Button, Card, message } from "antd";
 import { setToken } from "../utils/auth";
 import axios from "axios";
+import { createApiUrl, API_ENDPOINTS } from "../config/api";
 
 export default function LoginPage() {
   const [loading, setLoading] = useState(false);
@@ -12,10 +13,10 @@ export default function LoginPage() {
     const { username, password } = values;
     setLoading(true);
     try {
-      const res = await axios.post(
-        "http://localhost:2352/api/admin/6623-reward/login",
-        { username, password }
-      );
+      const res = await axios.post(createApiUrl(API_ENDPOINTS.ADMIN_LOGIN), {
+        username,
+        password,
+      });
       setToken(res.data.token);
       message.success("Đăng nhập thành công");
       navigate("/admin/codes");

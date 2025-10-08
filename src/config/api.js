@@ -9,6 +9,7 @@ export const API_ENDPOINTS = {
   PLUS_POINT: "/api/6623-reward/plus-poin",
 
   // Admin endpoints
+  ADMIN_LOGIN: "/api/admin/6623-reward/login",
   ADMIN_CODES: "/api/admin/6623-reward/codes",
   ADMIN_REWARDS: "/api/admin/6623-reward/rewards",
   ADMIN_HISTORY: "/api/admin/6623-reward/history",
