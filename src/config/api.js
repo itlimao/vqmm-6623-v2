@@ -1,5 +1,5 @@
 // Cấu hình API base URL
-export const API_BASE_URL = "http://localhost:2352";
+export const API_BASE_URL = "https://api.vqmn6623.com";
 
 // Các endpoint API
 export const API_ENDPOINTS = {
