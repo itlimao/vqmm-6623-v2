@@ -13,12 +13,9 @@ const { Title } = Typography;
 
 const PRIZES = [
   "airpods_none",
-  "cash_none",
   "code_none",
   "fridge_none",
-  "gold_none",
   "mobile_none",
-  "secret_none",
   "sh_none",
   "television_none",
 ];
@@ -27,17 +24,16 @@ const REWARD_LABELS = {
   code: "mã code cộng điểm",
   fridge: "tủ lạnh",
   mobile: "điện thoại",
-  sh: "xe SH",
   television: "TV",
   airpods: "Airpod Pro",
+  sh: "xe sh",
 };
 
 const REWARD_LABELS_DETAIL = {
   airpods: "AIRPODS PRO",
   code: "CODE NGẪU NHIÊN 18-8888K",
   fridge: "TỦ LẠNH LG",
-  mobile: "ĐIỆN THOẠI IPHONE 16",
-  secret: "PHẦN QUÀ BÍ MẬT",
+  mobile: "ĐIỆN THOẠI iPhone 17",
   sh: "XE SH 150i",
   television: "TV SAMSUNG 55 INCH",
 };
@@ -53,7 +49,7 @@ const winners = [
     linh*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    minhan*** – trúng <div className="icon mobile" /> iPhone 16
+    minhan*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     phuc*** – trúng <div className="icon code" /> Code trị giá 5888k"
@@ -71,7 +67,7 @@ const winners = [
     tien*** – trúng <div className="icon code" /> Code trị giá 3888k
   </>,
   <>
-    kim*** – trúng <div className="icon mobile" /> iPhone 16
+    kim*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     manh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -95,7 +91,7 @@ const winners = [
     minhduc*** – trúng <div className="icon code" /> Code trị giá 3888k
   </>,
   <>
-    chi*** – trúng <div className="icon mobile" /> iPhone 16
+    chi*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     le*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -122,7 +118,7 @@ const winners = [
     hath*** – trúng <div className="icon code" /> Code trị giá 3888k
   </>,
   <>
-    lam*** – trúng <div className="icon mobile" /> iPhone 16
+    lam*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     mya*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -155,7 +151,7 @@ const winners = [
     hoangk*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    trangc*** – trúng <div className="icon mobile" /> iPhone 16
+    trangc*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     hieu*** – trúng <div className="icon code" /> Code trị giá 3888k
@@ -185,13 +181,13 @@ const winners = [
     tamt*** – trúng <div className="icon moto" /> Xe SH 150i
   </>,
   <>
-    tienth*** – trúng <div className="icon mobile" /> iPhone 16
+    tienth*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     nganx*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    trangk*** – trúng <div className="icon mobile" /> iPhone 16
+    trangk*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     duongn*** – trúng <div className="icon code" /> Code trị giá 3888k
@@ -224,7 +220,7 @@ const winners = [
     minhph*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    giang*** – trúng <div className="icon mobile" /> iPhone 16
+    giang*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     minhng*** – trúng <div className="icon code" /> Code trị giá 3888k
@@ -248,7 +244,7 @@ const winners = [
     ngoct*** – trúng <div className="icon code" /> Code trị giá 3888k
   </>,
   <>
-    hieul*** – trúng <div className="icon mobile" /> iPhone 16
+    hieul*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     phuongn*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -266,7 +262,7 @@ const winners = [
     thanhn*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    tuyetn*** – trúng <div className="icon mobile" /> iPhone 16
+    tuyetn*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     vuongh*** – trúng <div className="icon code" /> Code trị giá 3888k
@@ -287,7 +283,7 @@ const winners = [
     baoanh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    huongb*** – trúng <div className="icon mobile" /> iPhone 16
+    huongb*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     nguyenv*** – trúng <div className="icon code" /> Code trị giá 8888k
@@ -305,7 +301,7 @@ const winners = [
     phuonga*** – trúng <div className="icon code" /> Code trị giá 3888k
   </>,
   <>
-    longd*** – trúng <div className="icon mobile" /> iPhone 16
+    longd*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     ngocm*** – trúng <div className="icon airpods" /> Tai nghe aripods
@@ -317,7 +313,7 @@ const winners = [
     ngocth*** – trúng <div className="icon fridge" /> Tủ lạnh LG
   </>,
   <>
-    hoangy*** – trúng <div className="icon mobile" /> iPhone 16
+    hoangy*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     tamho*** – trúng <div className="icon code" /> Code trị giá 8888k
@@ -341,7 +337,7 @@ const winners = [
     minhk*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    vuhoa*** – trúng <div className="icon mobile" /> iPhone 16
+    vuhoa*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
     anhthu*** – trúng <div className="icon airpods" /> Tai nghe aripods
@@ -374,9 +370,9 @@ const REWARD_DETAILS = {
       '20 chiếc Smart TV Samsung 55" 4K – tận hưởng trải nghiệm giải trí đỉnh cao ngay tại nhà với hình ảnh sắc nét và âm thanh sống động.',
   },
   mobile: {
-    label: "iPhone 16",
+    label: "iPhone 17",
     description:
-      "25 siêu phẩm iPhone 16 chính hãng – hiệu năng vượt trội, camera đỉnh cao, sạc nhanh siêu tốc. Dành cho những người chơi may mắn và thời thượng.",
+      "25 siêu phẩm iPhone 17 chính hãng – hiệu năng vượt trội, camera đỉnh cao, sạc nhanh siêu tốc. Dành cho những người chơi may mắn và thời thượng.",
   },
   airpods: {
     label: "AirPods Pro",
@@ -641,7 +637,7 @@ const CodeCheck = () => {
             </li>
             <li style={{ display: "flex" }}>
               <div className="mobile icon" />
-              Giải nhất iPhone 16
+              Giải nhất iPhone 17
             </li>
             <li style={{ display: "flex" }}>
               <div className="fridge icon" />
@@ -886,12 +882,12 @@ const CodeCheck = () => {
           ))}
         </Slider>
       </div>
-      <div className="gift-left">
+      {/* <div className="gift-left">
         <a href="https://t.me/sancodecung6623a">
           <img src={`/assets/gift-left.gif`} />
         </a>
-      </div>
-      <div className="gift-right">
+      </div> */}
+      {/* <div className="gift-right">
         <div className="image-right">
           <a href="https://t.me/kenhthongbao6623">
             <img src={`/assets/kenh-thong-bao.gif`} />
@@ -900,7 +896,7 @@ const CodeCheck = () => {
             <img src={`/assets/nhan-code-vip.gif`} />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
