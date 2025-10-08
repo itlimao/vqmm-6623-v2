@@ -69,7 +69,7 @@ export default function CodeListPage() {
 
   const generateCode = () => {
     const random = Math.random().toString(36).substring(2, 7).toUpperCase();
-    return `6623-REWARD-${random}`;
+    return `GK88-REWARD-${random}`;
   };
 
   const handleSubmit = async ({ quantity, point, reward }) => {
