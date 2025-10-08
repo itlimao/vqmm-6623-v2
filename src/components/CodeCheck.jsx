@@ -492,21 +492,17 @@ const CodeCheck = () => {
 
     if (!isCodeSubmitted) {
       try {
-        if (result.success) {
-          await axios.post(createApiUrl(API_ENDPOINTS.PLUS_POINT), {
-            code,
-            account,
-          });
-          message.success("Nạp điểm thành công!");
-          setOpen(false);
-          setSelectedPrize(null);
-          setIsCodeSubmitted(true);
-          setShowLoadModal(false);
-          setShowButton(false);
-          return;
-        } else {
-          message.error(result.message || "Nạp điểm thất bại!");
-        }
+        await axios.post(createApiUrl(API_ENDPOINTS.PLUS_POINT), {
+          code,
+          account,
+        });
+        message.success("Nạp điểm thành công!");
+        setOpen(false);
+        setSelectedPrize(null);
+        setIsCodeSubmitted(true);
+        setShowLoadModal(false);
+        setShowButton(false);
+        return;
         // const response = await fetch(
         //   "https://apidiem01.newpei.ink/api/auto-codehf",
         //   {
