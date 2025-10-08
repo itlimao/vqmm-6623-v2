@@ -609,19 +609,19 @@ const CodeCheck = () => {
 
   return (
     <div className="code-check-container">
-      {/* <div className="home">
+      <div className="home">
         <Button
           type="primary"
           icon={<HomeOutlined />}
           size="large"
           className="home-btn"
-          
+          onClick={() => (window.location.href = "https://hethongtong.com/")}
         >
           Trang chủ
         </Button>
-      </div> */}
+      </div>
       <img
-        onClick={() => (window.location.href = "https://gk88vip1.xyz/")}
+        onClick={() => (window.location.href = "https://gk88jun.com/")}
         src="/assets/gk88-logo.png"
         alt="logo"
         style={{ maxWidth: 250, cursor: "pointer" }}
