@@ -624,7 +624,7 @@ const CodeCheck = () => {
         onClick={() => (window.location.href = "https://gk88vip1.xyz/")}
         src="/assets/gk88-logo.png"
         alt="logo"
-        style={{ maxWidth: 300, cursor: "pointer" }}
+        style={{ maxWidth: 250, cursor: "pointer" }}
       />
       <Title level={2} className="title">
         KIỂM TRA MÃ CODE NHẬN THƯỞNG
