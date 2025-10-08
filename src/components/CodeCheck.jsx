@@ -615,14 +615,12 @@ const CodeCheck = () => {
           icon={<HomeOutlined />}
           size="large"
           className="home-btn"
-          onClick={() =>
-            (window.location.href = "https://662301.99886633.pro/")
-          }
+          onClick={() => (window.location.href = "https://gk88vip1.xyz/")}
         >
           Trang chủ
         </Button>
       </div>
-      <img src="/assets/logo-6623.png" alt="logo" style={{ maxWidth: 180 }} />
+      <img src="/assets/gk88-logo.png" alt="logo" style={{ maxWidth: 360 }} />
       <Title level={2} className="title">
         KIỂM TRA MÃ CODE NHẬN THƯỞNG
       </Title>
