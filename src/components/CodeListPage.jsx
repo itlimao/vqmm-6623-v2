@@ -56,7 +56,11 @@ export default function CodeListPage() {
       const res = await axios.get(createApiUrl(API_ENDPOINTS.ADMIN_REWARDS), {
         headers: { Authorization: `Bearer ${getToken()}` },
       });
-      setRewards(res.data);
+      const rewards = res.data.map((r) => {
+        r.name,
+        r.reward
+      });
+      setRewards(rewards);
     } catch {
       message.error("Không tải được danh sách phần thưởng");
     }
@@ -318,8 +322,8 @@ export default function CodeListPage() {
           >
             <Select placeholder="Chọn phần thưởng">
               {rewards.map((r) => (
-                <Select.Option key={r} value={r}>
-                  {r}
+                <Select.Option key={r.reward} value={r.reward}>
+                  {r.name}
                 </Select.Option>
               ))}
             </Select>

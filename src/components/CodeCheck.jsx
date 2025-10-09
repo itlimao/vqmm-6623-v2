@@ -40,7 +40,7 @@ const REWARD_LABELS_DETAIL = {
 
 const winners = [
   <>
-    nguyen*** – trúng <div className="icon code" /> Code trị giá 3888k
+    nguyen*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     hoang*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -52,19 +52,19 @@ const winners = [
     minhan*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    phuc*** – trúng <div className="icon code" /> Code trị giá 5888k"
+    phuc*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
     bao*** – trúng <div className="icon fridge" /> Tủ lạnh LG
   </>,
   <>
-    long*** – trúng <div className="icon code" /> Code trị giá 8888k
+    long*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     hoa*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    tien*** – trúng <div className="icon code" /> Code trị giá 3888k
+    tien*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     kim*** – trúng <div className="icon mobile" /> iPhone 17
@@ -79,16 +79,16 @@ const winners = [
     thanh*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    tam*** – trúng <div className="icon code" /> Code trị giá 5888k"
+    tam*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
     lyly*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    khanh*** – trúng <div className="icon code" /> Code trị giá 8888k
+    khanh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    minhduc*** – trúng <div className="icon code" /> Code trị giá 3888k
+    minhduc*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     chi*** – trúng <div className="icon mobile" /> iPhone 17
@@ -103,19 +103,19 @@ const winners = [
     truo*** – trúng <div className="icon fridge" /> Tủ lạnh LG
   </>,
   <>
-    hoangc*** – trúng <div className="icon code" /> Code trị giá 3888k
+    hoangc*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     quynh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    tuanm*** – trúng <div className="icon code" /> Code trị giá 8888k
+    tuanm*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    cuong*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    cuong*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
-    hath*** – trúng <div className="icon code" /> Code trị giá 3888k
+    hath*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     lam*** – trúng <div className="icon mobile" /> iPhone 17
@@ -136,10 +136,10 @@ const winners = [
     trongn*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    kiml*** – trúng <div className="icon code" /> Code trị giá 5888k"
+    kiml*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
-    khaing*** – trúng <div className="icon code" /> Code trị giá 3888k
+    khaing*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     tuananh*** – trúng <div className="icon fridge" /> Tủ lạnh LG
@@ -154,7 +154,7 @@ const winners = [
     trangc*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    hieu*** – trúng <div className="icon code" /> Code trị giá 3888k
+    hieu*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     phat*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -166,13 +166,13 @@ const winners = [
     duongc*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    leth*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    leth*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
-    anhk*** – trúng <div className="icon code" /> Code trị giá 8888k
+    anhk*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    vuong*** – trúng <div className="icon code" /> Code trị giá 3888k
+    vuong*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     hothanh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -190,7 +190,7 @@ const winners = [
     trangk*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    duongn*** – trúng <div className="icon code" /> Code trị giá 3888k
+    duongn*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     son*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -202,10 +202,10 @@ const winners = [
     hoangm*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    kien*** – trúng <div className="icon code" /> Code trị giá 5888k"
+    kien*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
-    vut*** – trúng <div className="icon code" /> Code trị giá 3888k
+    vut*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     trungk*** – trúng <div className="icon airpods" /> Tai nghe aripods
@@ -223,7 +223,7 @@ const winners = [
     giang*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    minhng*** – trúng <div className="icon code" /> Code trị giá 3888k
+    minhng*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     nhat*** – trúng <div className="icon airpods" /> Tai nghe aripods
@@ -232,16 +232,16 @@ const winners = [
     tan*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    baong*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    baong*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
-    duc*** – trúng <div className="icon code" /> Code trị giá 8888k
+    duc*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     tuanl*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    ngoct*** – trúng <div className="icon code" /> Code trị giá 3888k
+    ngoct*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     hieul*** – trúng <div className="icon mobile" /> iPhone 17
@@ -253,7 +253,7 @@ const winners = [
     thut*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    nguyenth*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    nguyenth*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
     kevin*** – trúng <div className="icon moto" /> Xe SH 150i
@@ -265,19 +265,19 @@ const winners = [
     tuyetn*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    vuongh*** – trúng <div className="icon code" /> Code trị giá 3888k
+    vuongh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     truongv*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    lamt*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    lamt*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
     linht*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    phatd*** – trúng <div className="icon code" /> Code trị giá 3888k
+    phatd*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     baoanh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -286,10 +286,10 @@ const winners = [
     huongb*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    nguyenv*** – trúng <div className="icon code" /> Code trị giá 8888k
+    nguyenv*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    trongl*** – trúng <div className="icon code" /> Code trị giá 3888k
+    trongl*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     thutri*** – trúng <div className="icon airpods" /> Tai nghe aripods
@@ -298,7 +298,7 @@ const winners = [
     tamm*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    phuonga*** – trúng <div className="icon code" /> Code trị giá 3888k
+    phuonga*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     longd*** – trúng <div className="icon mobile" /> iPhone 17
@@ -316,13 +316,13 @@ const winners = [
     hoangy*** – trúng <div className="icon mobile" /> iPhone 17
   </>,
   <>
-    tamho*** – trúng <div className="icon code" /> Code trị giá 8888k
+    tamho*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    bichtr*** – trúng <div className="icon code" /> Code trị giá 3888k
+    bichtr*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
-    tuanho*** – trúng <div className="icon code" /> Code trị giá 8888k
+    tuanho*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
   </>,
   <>
     thanhh*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -331,7 +331,7 @@ const winners = [
     huongn*** – trúng <div className="icon airpods" /> Tai nghe aripods
   </>,
   <>
-    thaing*** – trúng <div className="icon tv" /> Code trị giá 5888k"
+    thaing*** – trúng <div className="icon tv" /> Code ngẫu nhiên 18-888k"
   </>,
   <>
     minhk*** – trúng <div className="icon code" /> Code ngẫu nhiên 18-888k
@@ -622,18 +622,6 @@ const CodeCheck = () => {
             <li style={{ display: "flex" }}>
               <div className="airpods icon" />
               Tai nghe aripods
-            </li>
-            <li style={{ display: "flex" }}>
-              <div className="code icon" />
-              Code trị giá 8888k
-            </li>
-            <li style={{ display: "flex" }}>
-              <div className="code icon" />
-              Code trị giá 5888k
-            </li>
-            <li style={{ display: "flex" }}>
-              <div className="code icon" />
-              Code trị giá 3888k
             </li>
             <li style={{ display: "flex" }}>
               <div className="code icon" />
