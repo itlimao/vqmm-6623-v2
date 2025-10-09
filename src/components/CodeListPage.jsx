@@ -56,11 +56,7 @@ export default function CodeListPage() {
       const res = await axios.get(createApiUrl(API_ENDPOINTS.ADMIN_REWARDS), {
         headers: { Authorization: `Bearer ${getToken()}` },
       });
-      const rewards = res.data.map((r) => {
-        r.name,
-        r.reward
-      });
-      setRewards(rewards);
+      setRewards(res.data);
     } catch {
       message.error("Không tải được danh sách phần thưởng");
     }
