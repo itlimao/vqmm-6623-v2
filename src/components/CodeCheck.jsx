@@ -578,7 +578,7 @@ const CodeCheck = () => {
 
   return (
     <div className="code-check-container">
-      <div className="home">
+      {/* <div className="home">
         <Button
           type="primary"
           icon={<HomeOutlined />}
@@ -588,7 +588,7 @@ const CodeCheck = () => {
         >
           Trang chủ
         </Button>
-      </div>
+      </div> */}
       <img
         onClick={() => (window.location.href = "https://gk88jun.com/")}
         src="/assets/gk88-logo.png"
