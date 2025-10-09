@@ -488,51 +488,20 @@ const CodeCheck = () => {
 
     if (!isCodeSubmitted) {
       try {
-        await axios.post(createApiUrl(API_ENDPOINTS.PLUS_POINT), {
+        const result =  await axios.post(createApiUrl(API_ENDPOINTS.PLUS_POINT), {
           code,
           account,
         });
-        message.success("Nạp điểm thành công!");
+        console.log('result', result);
+        message.success("Thao tác thành công!");
         setOpen(false);
         setSelectedPrize(null);
         setIsCodeSubmitted(true);
         setShowLoadModal(false);
         setShowButton(false);
         return;
-        // const response = await fetch(
-        //   "https://apidiem01.newpei.ink/api/auto-codehf",
-        //   {
-        //     method: "POST",
-        //     mode: "cors",
-        //     credentials: "omit",
-        //     headers: {
-        //       "Content-Type": "application/json",
-        //       "X-API-KEY": "6623code_secure_api_key_$%^@!",
-        //     },
-        //     body: JSON.stringify({
-        //       userName: account.toLowerCase(),
-        //       amount: point,
-        //     }),
-        //   }
-        // );
-        // const result = await response.json();
-        // if (result.success) {
-        //   await axios.post("/api/6623-reward/plus-poin", {
-        //     code,
-        //     account,
-        //   });
-        //   message.success("Nạp điểm thành công!");
-        //   setOpen(false);
-        //   setSelectedPrize(null);
-        //   setIsCodeSubmitted(true);
-        //   setShowLoadModal(false);
-        //   setShowButton(false);
-        //   return;
-        // } else {
-        //   message.error(result.message || "Nạp điểm thất bại!");
-        // }
       } catch (error) {
-        message.error("Lỗi kết nối máy chủ nạp điểm!");
+        message.error("Có lỗi xảy ra khi nạp code! Vui lòng thử lại sau.");
         console.log(error);
       } finally {
         setIsLoading(false);
