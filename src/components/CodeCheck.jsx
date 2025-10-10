@@ -554,7 +554,7 @@ const CodeCheck = () => {
       }, 200);
 
       const filteredPrizes = PRIZES.filter((p) => !p.startsWith(reward));
-      const otherImages = shuffleArray(filteredPrizes).slice(0, 8);
+      const otherImages = shuffleArray(filteredPrizes).slice(0, 5);
       const finalImages = [...otherImages];
       finalImages.splice(index, 0, reward);
       setChestImages(finalImages);
@@ -569,7 +569,7 @@ const CodeCheck = () => {
 
   useEffect(() => {
     if (!selectedPrize) {
-      setRewardMessage("🎁 Chọn 1 trong 9 rương để nhận thưởng");
+      setRewardMessage("🎁 Chọn 1 trong 6 rương để nhận thưởng");
     } else {
       const label = REWARD_LABELS[selectedPrize] || "phần thưởng";
       setRewardMessage(`🎉 Chúc mừng bạn trúng ${label}`);
@@ -704,7 +704,7 @@ const CodeCheck = () => {
         </Title>
 
         <Row gutter={[8, 8]}>
-          {Array.from({ length: 9 }).map((_, index) => {
+          {Array.from({ length: 6 }).map((_, index) => {
             let imgSrc = "/assets/ruong.png";
 
             if (selectedPrize !== null) {
